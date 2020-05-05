@@ -1,0 +1,38 @@
+#social {
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+}
+.social-sharing > p,
+.social-sharing > a {
+  padding: 1% 10%;
+}
+#top {
+  color: rgb(238, 158, 202);
+  padding: 30px;
+  font-size: xx-large;
+}
+
+.fab {
+  width: 30px;
+  padding: 5px;
+  width: 20px;
+  background-color: azure;
+  border-radius: 30px;
+  box-shadow: 0 5px 7px 0 rgba(212, 236, 255, 0.616);
+}
+
+.fab:hover,
+#top:hover {
+  transition: all 0.5s linear;
+  transform: scale(2.2, 3);
+  color: brown;
+}
+.email {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  width: 200px;
+  height: 50px;
+}

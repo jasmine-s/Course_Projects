@@ -1,0 +1,9 @@
+/*Project Theme_Nuemorphic-1 and regular shadows*/
+.theme {
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 10px #8e9eab, inset -5px -5px 10px #2e4053;
+}
+.theme1 {
+    box-shadow: 2px 3px 4px 0px #2e4053;
+    border-radius: 10px;
+}

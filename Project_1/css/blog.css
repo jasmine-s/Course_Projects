@@ -1,0 +1,112 @@
+/*Page1*/
+h2 {
+  margin-top: 10px;
+}
+
+figure {
+  margin-inline-end: 40px;
+  display: block;
+  margin-block-start: 1em;
+  box-sizing: border-box;
+}
+
+.figure-caption {
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+
+.mr-3 {
+  width: 180px;
+  height: 170px;
+  margin-right: 1rem !important;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 30.33%);
+  grid-gap: 10px;
+  padding: 4px;
+  margin-left: 10%;
+}
+.post {
+  border-radius: 10px;
+  background-color: antiquewhite;
+  transition: all 1s linear;
+}
+.post-me {
+  background-color: #252525;
+  background-image: url("../imgs/img1.jpg");
+  color: pink;
+  opacity: 1.783;
+  background-size: 130%;
+  background-attachment: fixed;
+  background-position: fixed;
+}
+.mr-3 {
+  border-radius: 50%;
+}
+.post:hover {
+  transform: scale(1.102, 1.204);
+  border: 2px solid rgb(7, 20, 78);
+}
+.post-me:hover {
+  color: #fff;
+  transition: all 0.5s linear;
+  /* transform:skewX(5deg) ; */
+  transform: scale(1.02, 1.001);
+  border-radius: 30px;
+  border: 5px solid #2e4053;
+}
+.alternate:hover {
+  border: 5px solid rgb(121, 120, 211);
+}
+.post:hover > p {
+  font-size: 10px;
+}
+.post-me:hover > p {
+  font-size: large;
+}
+.post:hover > figcaption,
+.post-me:hover > figcaption {
+  font-size: 5px;
+}
+.alternate {
+  background-color: #000;
+  color: antiquewhite;
+}
+em {
+  font-family: "Montserrat", sans-serif;
+  font-style: 500i;
+  letter-spacing: 0.05em;
+}
+figcaption {
+  font-style: italic;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.contact {
+  background-color: #000;
+  color: antiquewhite;
+}
+.grid-2 {
+  grid-template-columns: 50% 50%;
+  padding: 3%;
+  grid-gap: 20px;
+  padding: 10px;
+  display: grid;
+  margin: 20px 5% auto;
+}
+.grid-1 {
+  grid-template-columns: 90%;
+  padding: 5%;
+  margin: 0 auto;
+}
+.grid-space-2 {
+  grid-template-columns: 80% 20%;
+  padding: 5%;
+  display: inline-flex;
+}

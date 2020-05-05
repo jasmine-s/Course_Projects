@@ -1,0 +1,48 @@
+/* Styling Nav Bar */
+.nav {
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(86, 147, 158);
+    grid-template-columns: 50% 50%;
+    padding: 5px;
+    top: 0;
+    display: flex;
+}
+.nav-menu {
+    display: inline-flex;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-gap: 10px;
+}
+
+.nav-item {
+    border-radius: 30px;
+    padding: 10px;
+}
+.nav-item:hover {
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: #2e4053;
+}
+.me > img {
+    width: 40px;
+    height: 50px;
+}
+.me > h6 {
+    width: 100%;
+    text-align: center;
+    margin: 10px 10px 10px 2px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    /* border: 2px solid #2E4053; */
+}

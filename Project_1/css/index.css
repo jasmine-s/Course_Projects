@@ -1,0 +1,36 @@
+/*main page*/
+@import "theme.css";
+@import "navs.css";
+@import "blog.css";
+@import "myblog.css";
+@import "social.css";
+@import "blogsections.css";
+@import "buttons.css";
+@import "author.css";
+@import "responsive.css";
+* {
+    margin: 2px;
+}
+body {
+    background-color: #fff;
+    color: #2e4053;
+    font-family: "rajdhani";
+    justify-content: center;
+    text-align: center;
+    scroll-behavior: smooth;
+    background-image: linear-gradient(95deg, #eef2f3, #fff, #eef2f3);
+    background-attachment: fixed;
+    background-position: fixed;
+    background-size: cover;
+}
+h5 {
+    font-size: large;
+}
+.paging {
+    background-color: rgb(86, 147, 158);
+    border-radius: 10px;
+    display: inline-flexbox;
+}
+a:visited {
+    color: #2e4053;
+}
