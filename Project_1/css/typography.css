@@ -20,3 +20,8 @@ h6 {
 h5 {
     font-variant-caps: all-small-caps;
 }
+h2{
+    font-weight: 50;
+    color: brown;
+    text-shadow: 2px 3px 1px rgb(176, 198, 207);
+}
