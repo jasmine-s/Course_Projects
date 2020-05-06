@@ -1,0 +1,22 @@
+/* Typography */
+p {
+    color: rgb(10, 28, 51);
+    font-family: Verdana, sans-serif;
+    background-color: transparent;
+    opacity: 10px;
+}
+.ran:hover > p {
+    color: rgb(10, 28, 51);
+}
+
+.alternate:hover > p {
+    color: bisque;
+}
+h1,
+h2,
+h6 {
+    font-style: oblique;
+}
+h5 {
+    font-variant-caps: all-small-caps;
+}
